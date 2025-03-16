@@ -5,9 +5,9 @@ Crear un sistema de login similar al de Silk Road implica desarrollar una interf
 A continuación, te mostraré cómo crear un sistema de login básico utilizando tecnologías web comunes como HTML, CSS, JavaScript (para el frontend) y Node.js con Express (para el backend). También utilizaremos una base de datos MongoDB para almacenar la información de los usuarios.
 
 1. Estructura del Proyecto
+   
 Primero, crea una estructura de carpetas para tu proyecto:
 
-Copy
 my-login-app/
 │
 ├── public/
@@ -26,10 +26,12 @@ my-login-app/
 │
 ├── .env
 └── package.json
+
 2. Configuración del Entorno
+   
 Instala las dependencias necesarias:
 
-bash
-Copy
+bash: 
+
 npm init -y
 npm install express mongoose bcryptjs body-parser dotenv
